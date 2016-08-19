@@ -2,7 +2,9 @@
 var createPingPongArray = function(number) {
 	var pingPongArray = [];
   for (var i = 1; i <= number; i++) {
-    if (i % 5 === 0) {
+    if (i % 15 === 0) {
+      pingPongArray.push("ping-pong");
+    } else if (i % 5 === 0) {
       pingPongArray.push("pong");
     } else if (i % 3 === 0) {
       pingPongArray.push("ping");
