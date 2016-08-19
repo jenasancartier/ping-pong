@@ -15,7 +15,6 @@ var createPingPongArray = function(number) {
   return pingPongArray;
 };
 
-
 //front-end logic:
 $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
@@ -23,13 +22,7 @@ $(document).ready(function() {
 
     var number = parseInt($("input#userNumber").val());
     var result = createPingPongArray(number);
-		// var ul = document.createElement('ul');
-		// for(var i = 0; i < result.length; i++) {
-		// 	var li = document.createElement('li');
-		//   li.innerHTML = result[i];
-		//   ul.appendChild(li).text;
-		// }
-		// document.body.appendChild(ul);
+		var ul = document.createElement('ul');
 
   $("#result").text(result.join(" || "));
 
