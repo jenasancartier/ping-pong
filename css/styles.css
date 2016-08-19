@@ -1,0 +1,60 @@
+body {
+  background-image: url("../img/celestial.jpeg");
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+}
+
+h3 {
+  font-family: 'Bungee Shade', cursive;
+}
+
+img {
+  max-width: 200px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 25px;
+}
+
+.row {
+  margin:auto;
+}
+
+.btn {
+  font-size: 20px;
+}
+
+.jumbotron {
+  text-align: center;
+  margin-top: 30px;
+  background-color: #ffe6f9;
+  opacity: .85;
+}
+
+#results {
+  background-color: #ccccff;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+#directions {
+  background-color: #ccccff;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+#inputBox {
+  text-align: center;
+  background-color: #ccccff;
+  border-radius: 10px;
+  max-width: 450px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: right;
+  padding-top: 20px;
+}
