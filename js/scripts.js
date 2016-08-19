@@ -2,7 +2,11 @@
 var createPingPongArray = function(number) {
 	var pingPongArray = [];
   for (var i = 1; i <= number; i++) {
-  	pingPongArray.push(i);
+    if (i % 3 === 0) {
+      pingPongArray.push("ping");
+    } else {
+      pingPongArray.push(i);
+    }
   }
   return pingPongArray;
 };
@@ -22,3 +26,16 @@ $(document).ready(function() {
 
   });
 });
+
+
+// var createPingPongArray = function(number) {
+// 	var pingPongArray = [];
+//   for (var i = 1; i <= number; i++) {
+//     if (i % 3 === 0) {
+//       pingPongArray.push("ping");
+//     } else {
+//   	  pingPongArray.push(i);
+//     }
+//     return pingPongArray;
+//   }
+// };
