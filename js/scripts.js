@@ -2,7 +2,9 @@
 var createPingPongArray = function(number) {
 	var pingPongArray = [];
   for (var i = 1; i <= number; i++) {
-    if (i % 3 === 0) {
+    if (i % 5 === 0) {
+      pingPongArray.push("pong");
+    } else if (i % 3 === 0) {
       pingPongArray.push("ping");
     } else {
       pingPongArray.push(i);
@@ -26,16 +28,3 @@ $(document).ready(function() {
 
   });
 });
-
-
-// var createPingPongArray = function(number) {
-// 	var pingPongArray = [];
-//   for (var i = 1; i <= number; i++) {
-//     if (i % 3 === 0) {
-//       pingPongArray.push("ping");
-//     } else {
-//   	  pingPongArray.push(i);
-//     }
-//     return pingPongArray;
-//   }
-// };
