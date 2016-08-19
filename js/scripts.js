@@ -31,8 +31,7 @@ $(document).ready(function() {
 		// }
 		// document.body.appendChild(ul);
 
-
-  $("#result").text(result.join(" * "));
+  $("#result").text(result.join(" || "));
 
   });
 });
