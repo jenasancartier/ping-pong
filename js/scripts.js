@@ -16,15 +16,21 @@ var createPingPongArray = function(number) {
 };
 
 
-
 //front-end logic:
 $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
     event.preventDefault();
     var number = parseInt($("input#userNumber").val());
     var result = createPingPongArray(number);
+		var ul = document.createElement('ul');
+		for(var i = 0; i < result.length; i++) {
+			var li = document.createElement('li');
+		  li.innerHTML = result[i];
+		  ul.appendChild(li).text;
+		}
+		document.body.appendChild(ul);
 
-  $("#result").text(result.join("\n"));
+  // $("#result").text(result.join(" --> "));
 
   });
 });
