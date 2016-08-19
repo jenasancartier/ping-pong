@@ -21,7 +21,7 @@ A web application (using HTML, CSS, JavaScript, jQuery, and Bootstrap) that take
   * https://jenasancartier.github.io/ping-pong/
 
 ### Support & Contact
-For questions or comments, please email me at [jenasancartier@gmail.com](mailto:jenasancartier@gmail.com)__
+For questions or comments, please email me at [jenasancartier@gmail.com](mailto:jenasancartier@gmail.com)
 
 ### Known Issues
 * No known bugs as of 08.19.2016
